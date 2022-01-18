@@ -79,6 +79,8 @@ textarea {
     margin: 10px 0;
     font-size: 14px;
     padding-left: 10px;
+    border: none;
+    border-bottom: 1px solid black;
 }
 
 button {

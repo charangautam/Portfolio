@@ -1,12 +1,16 @@
 import './about.css';
 import about from '../../img/about.jpg';
 import achievement from '../../img/achievement.png';
+import { useContext } from 'react';
+import { ThemeContext } from '../../context';
 
 const About = () => {
+    const theme = useContext(ThemeContext)
+    const darkMode = theme.state.darkMode
     return (
         <div className="about">
             <div className="a-left">
-                <div className="a-card bg"></div>
+                <div className="a-card bg" style={{ backgroundColor: darkMode && "#C7BEA2" }}></div>
                 <div className="a-card">
                     <img src={about} alt="" className="a-about-img" />
                 </div>
@@ -44,7 +48,7 @@ const About = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </div >
     )
 }
 

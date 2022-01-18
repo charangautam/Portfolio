@@ -1,4 +1,5 @@
-import { useState, useRef } from 'react';
+import { useState, useRef, useContext } from 'react';
+import { ThemeContext } from '../../context';
 import './contact.css';
 
 // contact icons
@@ -9,6 +10,8 @@ import address from '../../img/address.png'
 import emailjs from '@emailjs/browser';
 
 const Contact = () => {
+    const theme = useContext(ThemeContext)
+    const darkMode = theme.state.darkMode
     const [done, setDone] = useState(false)
 
     const formRef = useRef()
@@ -16,7 +19,6 @@ const Contact = () => {
     const Subject = useRef()
     const Email = useRef()
     const Message = useRef()
-
 
     const handleSubmit = (e) => {
         e.preventDefault()
@@ -62,10 +64,10 @@ const Contact = () => {
                             <b>Interested in my skills? </b>Get in touch with me. I am looking for a full time position with a company working to make to difference to the communities they serve.
                         </p>
                         <form ref={formRef} onSubmit={handleSubmit}>
-                            <input type="text" placeholder="Name" name="user_name" ref={Name} />
-                            <input type="text" placeholder="Subject" name="user_subject" ref={Subject} />
-                            <input type="text" placeholder="Email" name="user_email" ref={Email} />
-                            <textarea rows="5" placeholder="Message" name="message" ref={Message}></textarea>
+                            <input type="text" placeholder="Name" name="user_name" ref={Name} style={{ backgroundColor: darkMode && "#333", color: darkMode && "#fff" }} />
+                            <input type="text" placeholder="Subject" name="user_subject" ref={Subject} style={{ backgroundColor: darkMode && "#333", color: darkMode && "#fff" }} />
+                            <input type="text" placeholder="Email" name="user_email" ref={Email} style={{ backgroundColor: darkMode && "#333", color: darkMode && "#fff" }} />
+                            <textarea rows="5" placeholder="Message" name="message" ref={Message} style={{ backgroundColor: darkMode && "#333", color: darkMode && "#fff" }}></textarea>
                             <button type="submit">Submit</button>
                             {done && <p>Thank you, I will get back to you shortly</p>}
                         </form>

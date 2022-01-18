@@ -1,0 +1,92 @@
+.contact {
+    height: 100vh;
+    position: relative;
+}
+
+.c-bg {
+    clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+    background-color: #519259;
+    width: 47%;
+    height: 100%;
+    position: absolute;
+}
+
+.c-wrapper {
+    padding: 50px;
+    display: flex;
+}
+
+/* left side */
+
+.c-left {
+    flex: 1;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.c-title {
+    font-size: 60px;
+    width: 60%;
+}
+
+.c-info-item {
+    display: flex;
+    align-items: center;
+    margin: 50px 0;
+    font-weight: 600;
+}
+
+.c-icon {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+/* right side */
+
+.c-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 100px;
+}
+
+.c-desc {
+    font-weight: 300;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input {
+    width: 50%;
+    height: 50px;
+    border: none;
+    border-bottom: 1px solid black;
+    margin: 10px 0;
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+textarea {
+    width: 100%;
+    margin: 10px 0;
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+button {
+    border: none;
+    width: 17%;
+    padding: 15px;
+    background-color: #519259;
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+}

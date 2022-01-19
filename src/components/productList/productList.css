@@ -26,3 +26,25 @@
     justify-content: space-between;
     width: 100%;
 }
+
+/* responsive */
+
+@media screen and (max-width: 480px) {
+    .product-list {
+        padding: 10px;
+        max-width: 100vh;
+        margin-top: 300px;
+    }
+
+    .pl-texts {
+        width: 100%;
+    }
+
+    .pl-title {
+        font-size: 30px;
+    }
+
+    .pl-desc {
+        display: none;
+    }
+}

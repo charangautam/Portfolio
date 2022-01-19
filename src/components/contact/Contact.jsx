@@ -47,15 +47,16 @@ const Contact = () => {
                         <div className="c-info">
                             <div className="c-info-item">
                                 <img src={phone} alt="" className="c-icon" />
-                                403-483-6798
+                                <span className="c-detail">403-483-6798</span>
                             </div>
                             <div className="c-info-item">
                                 <img src={email} alt="" className="c-icon" />
-                                charan.gtm24@gmail.com
+                                <span className="c-detail">charan.gtm24@gmail.com</span>
+
                             </div>
                             <div className="c-info-item">
                                 <img src={address} alt="" className="c-icon" />
-                                Calgary, Alberta
+                                <span className="c-detail">Calgary, Alberta</span>
                             </div>
                         </div>
                     </div>

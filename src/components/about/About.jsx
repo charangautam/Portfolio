@@ -30,7 +30,7 @@ const About = () => {
                 <div className="a-achievement">
                     <img src={achievement} alt="" className="a-acheivement-img" />
                     <div className="a-achievement-texts">
-                        <h4 className="a-achievement-title">International Design Awards 2021</h4>
+                        <h4 className="a-achievement-title" style={{ color: darkMode && "#F2E1C1" }}>International Design Awards 2021</h4>
                         <p className="a-achievement-desc">
                             Nemo enim ipsam voluptatem quia voluptas sit aspernatur autodit
                             and fugit.
@@ -40,7 +40,7 @@ const About = () => {
                 <div className="a-achievement">
                     <img src={achievement} alt="" className="a-acheivement-img" />
                     <div className="a-achievement-texts">
-                        <h4 className="a-achievement-title">International Design Awards 2021</h4>
+                        <h4 className="a-achievement-title" style={{ color: darkMode && "#F2E1C1" }}>International Design Awards 2021</h4>
                         <p className="a-achievement-desc">
                             Nemo enim ipsam voluptatem quia voluptas sit aspernatur autodit
                             and fugit.

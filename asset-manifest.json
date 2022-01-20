@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.99518109.css",
+    "main.js": "/Portfolio/static/js/main.f9f2b739.js",
+    "static/media/avengersFlix.png": "/Portfolio/static/media/avengersFlix.eab36846a060e976a234.png",
+    "static/media/avengersFlixAngular.png": "/Portfolio/static/media/avengersFlixAngular.41998d570999d2fc5903.png",
+    "static/media/about.jpg": "/Portfolio/static/media/about.60e96bb60c6f77a8bf4c.jpg",
+    "static/media/chatter.png": "/Portfolio/static/media/chatter.2e13ac4a76c090f70735.png",
+    "static/media/meet.png": "/Portfolio/static/media/meet.d11cdb30c3678ede1719.png",
+    "static/media/profile.png": "/Portfolio/static/media/profile.a49d18c29cac507ff123.png",
+    "static/media/charan_gautam_resume.pdf": "/Portfolio/static/media/charan_gautam_resume.dff541fdd64755147ee5.pdf",
+    "static/media/address.png": "/Portfolio/static/media/address.a01cb8cc428702f30bec.png",
+    "static/media/email.png": "/Portfolio/static/media/email.a49e015815e3ac6d2bd3.png",
+    "static/media/achievement.png": "/Portfolio/static/media/achievement.bd968feab24a35d893d3.png",
+    "static/media/sun.png": "/Portfolio/static/media/sun.f794832ad72b90c61eb7.png",
+    "static/media/phone.png": "/Portfolio/static/media/phone.d90a6d23cf5129d853bb.png",
+    "static/media/moon.png": "/Portfolio/static/media/moon.3bea3d398a25611d421b.png",
+    "index.html": "/Portfolio/index.html",
+    "static/media/github.svg": "/Portfolio/static/media/github.e7ab8675a2cbadea548cafe724065b9e.svg",
+    "static/media/instagram.svg": "/Portfolio/static/media/instagram.7d97391465d60f2909c444d267ea80ff.svg",
+    "static/media/linkedin.svg": "/Portfolio/static/media/linkedin.9e52cf326e0bbf3cd9a3378906c0d35c.svg",
+    "main.99518109.css.map": "/Portfolio/static/css/main.99518109.css.map",
+    "main.f9f2b739.js.map": "/Portfolio/static/js/main.f9f2b739.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.99518109.css",
+    "static/js/main.f9f2b739.js"
+  ]
+}

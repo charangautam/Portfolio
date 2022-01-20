@@ -17,6 +17,7 @@ const ProductList = () => {
                     <Product img={product.img} link={product.link} name={product.name} tech={product.tech} key={product.id} />
                 ))}
             </div>
+            <p className='github-link'>Check out my <a href="https://github.com/charangautam">GitHub</a> for more details on each project!</p>
         </div>
     )
 }

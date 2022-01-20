@@ -27,6 +27,21 @@
     width: 100%;
 }
 
+.github-link {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 40px 0 20px 0;
+}
+
+.github-link a {
+    color: #9A0680;
+    text-decoration: none;
+    transition: opacity 1s ease-in-out 6ms;
+}
+
+.github-link a:hover {
+    opacity: 0.79;
+}
 /* responsive */
 
 @media screen and (max-width: 480px) {

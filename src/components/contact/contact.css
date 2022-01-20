@@ -90,6 +90,36 @@ button {
     border-radius: 10px;
 }
 
+/* footer */
+
+.footer {
+    text-align: center;
+    background: #222;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 5px;
+}
+
+.footer p {
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+}
+
+.social-media {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 150px;
+}
+
+.social-link {
+   background-color: darkgray;
+   padding: 3px;
+   border-radius: 50%;
+}
+
 @media screen and (max-width: 480px) {
     .c-wrapper {
         flex-direction: column;

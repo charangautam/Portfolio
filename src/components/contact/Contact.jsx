@@ -4,8 +4,12 @@ import './contact.css';
 
 // contact icons
 import phone from '../../img/phone.png';
-import email from '../../img/email.png'
-import address from '../../img/address.png'
+import email from '../../img/email.png';
+import address from '../../img/address.png';
+// footer icons 
+import github from '../../img/github.svg';
+import instagram from '../../img/instagram.svg'
+import linkedin from '../../img/linkedin.svg'
 // EmailJS
 import emailjs from '@emailjs/browser';
 
@@ -73,6 +77,14 @@ const Contact = () => {
                             {done && <p>Thank you, I will get back to you shortly</p>}
                         </form>
                     </div>
+                </div>
+            </div>
+            <div className="footer" style={{ backgroundColor: darkMode && "#fff" }}>
+                <p style={{ color: darkMode && "#222" }}>Find me on</p>
+                <div className="social-media">
+                    <a href="https://github.com/charangautam" target="_blank" rel="noreferrer"><img src={github} alt="Github link" className="social-link" style={{ backgroundColor: darkMode && "gray" }} /></a>
+                    <a href="https://www.instagram.com/charangautam/" target="_blank" rel="noreferrer"><img src={instagram} alt="Instagram link" className="social-link" style={{ backgroundColor: darkMode && "gray" }} /></a>
+                    <a href="https://www.linkedin.com/in/charan-gautam-bb3683212/" target="_blank" rel="noreferrer"><img src={linkedin} alt="LinkedIn link" className="social-link" style={{ backgroundColor: darkMode && "gray" }} /></a>
                 </div>
             </div>
         </div>

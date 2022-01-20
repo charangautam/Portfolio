@@ -18,32 +18,26 @@ const About = () => {
             <div className="a-right">
                 <h1 className="a-title">About Me</h1>
                 <p className="a-sub">
-                    It is a long established fact that a reader will be distracted by the
-                    readable content.
+                    I pursued Kinesiology in my undergrad because of an innate drive to empower others to experience the physical, social and mental wellness benefits associated with healthy living.
                 </p>
                 <p className="a-desc">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                    minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip ex ea commodo consequat duis aute irure dolor in reprehende.
+                    When I started programming, a few years ago, I was very invested in exploring how technology enables and advances healthcare. My purpose is to utilize the knowledge acquired through my Kinesiology degree and apply it to write software that works to make a difference and improve lives of users as tech continues to drive the world.
                 </p>
                 <div className="a-achievement">
                     <img src={achievement} alt="" className="a-acheivement-img" />
                     <div className="a-achievement-texts">
-                        <h4 className="a-achievement-title" style={{ color: darkMode && "#F2E1C1" }}>International Design Awards 2021</h4>
+                        <h4 className="a-achievement-title" style={{ color: darkMode && "#F2E1C1" }}>Bachelor's of Kinesiology</h4>
                         <p className="a-achievement-desc">
-                            Nemo enim ipsam voluptatem quia voluptas sit aspernatur autodit
-                            and fugit.
+                            3.74 GPA across degree. Acquired extensive knowledge related to health, wellness, nutrition, exercise and performance psychology.
                         </p>
                     </div>
                 </div>
                 <div className="a-achievement">
                     <img src={achievement} alt="" className="a-acheivement-img" />
                     <div className="a-achievement-texts">
-                        <h4 className="a-achievement-title" style={{ color: darkMode && "#F2E1C1" }}>International Design Awards 2021</h4>
+                        <h4 className="a-achievement-title" style={{ color: darkMode && "#F2E1C1" }}>CareerFoundry Web Development Bootcamp</h4>
                         <p className="a-achievement-desc">
-                            Nemo enim ipsam voluptatem quia voluptas sit aspernatur autodit
-                            and fugit.
+                            Acquired knowledge in a range of techologies spanning from MongoDB, NodeJS and ExpressJS on the backend to React and Angular on the frontend to build functional websites. Also worked with testing/debugging tools and built a mobile application using React Native.
                         </p>
                     </div>
                 </div>

@@ -1,23 +1,28 @@
+import avengersFlix from './img/avengersFlix.png';
+import avengersFlixAngular from './img/avengersFlixAngular.png';
+import meet from './img/meet.png'
+import chatter from './img/chatter.png'
+
 export const products = [
     {
         id: 1,
-        img: "https://via.placeholder.com/150",
-        link: "http://lama.dev",
+        img: avengersFlix,
+        link: "https://avengersflix.netlify.app/",
     },
     {
         id: 2,
-        img: "https://via.placeholder.com/150",
-        link: "http://lama.dev",
+        img: avengersFlixAngular,
+        link: "https://charangautam.github.io/avengersFlix-Angular/",
     },
     {
         id: 3,
-        img: "https://via.placeholder.com/150",
-        link: "http://lama.dev",
+        img: meet,
+        link: "https://charangautam.github.io/meet/",
     },
     {
         id: 4,
-        img: "https://via.placeholder.com/150",
-        link: "http://lama.dev",
+        img: chatter,
+        link: "https://github.com/charangautam/chatter#readme",
     },
     {
         id: 5,

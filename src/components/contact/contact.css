@@ -43,6 +43,23 @@
     margin-right: 20px;
 }
 
+.resume-button {
+    text-decoration: none;
+    transition: opacity 1s ease-in-out 6ms;
+    color: #F0ECE3;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #222;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.resume-button:hover {
+    opacity: 0.79;
+}
+
+
+
 /* right side */
 
 .c-right {
@@ -84,10 +101,15 @@ button {
     border: none;
     padding: 15px;
     background-color: #519259;
-    color: white;
+    color: black;
     font-weight: 500;
     cursor: pointer;
     border-radius: 10px;
+    transition: opacity 1s ease-in-out 6ms;
+}
+
+button:hover {
+    opacity: 0.79;
 }
 
 /* footer */

@@ -83,6 +83,34 @@
 
 /* responsive */
 
+@media screen and (max-width: 1100px) {
+    .about {
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    .a-left {
+        width: 100%;
+    }
+
+    .a-card.bg {
+        display: none;
+    }
+
+    .a-card {
+        height: 30vh;
+    }
+
+    .a-right {
+        padding: 20px;
+    }
+
+    .a-acheivement-img {
+        width: 90px;
+        height: 90px;
+    }
+}
+
 @media screen and (max-width: 480px) {
     .about {
         flex-direction: column;
@@ -105,6 +133,10 @@
 
     .a-right {
         padding: 20px;
+    }
+
+    .a-desc {
+        display: none;
     }
 
     .a-acheivement-img {

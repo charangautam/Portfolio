@@ -6,31 +6,43 @@ import chatter from './img/chatter.png'
 export const products = [
     {
         id: 1,
+        name: 'AvengerFlix',
+        tech: 'Built using MERN stack',
         img: avengersFlix,
         link: "https://avengersflix.netlify.app/",
     },
     {
         id: 2,
+        name: 'AvengerFlix in Angular',
+        tech: 'Built using MEAN stack',
         img: avengersFlixAngular,
         link: "https://charangautam.github.io/avengersFlix-Angular/",
     },
     {
         id: 3,
+        name: 'meet',
+        tech: 'Built using React and AWS Lambda',
         img: meet,
         link: "https://charangautam.github.io/meet/",
     },
     {
         id: 4,
         img: chatter,
+        name: 'chatter',
+        tech: 'Built using React Native and Firebase',
         link: "https://github.com/charangautam/chatter#readme",
     },
     {
         id: 5,
+        name: 'HR Input',
+        tech: 'Built using MERN stack',
         img: "https://via.placeholder.com/150",
         link: "http://lama.dev",
     },
     {
         id: 6,
+        name: 'AvengerFlix',
+        tech: 'Built using MERN stack',
         img: "https://via.placeholder.com/150",
         link: "http://lama.dev",
     },

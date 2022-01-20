@@ -10,6 +10,8 @@ import address from '../../img/address.png';
 import github from '../../img/github.svg';
 import instagram from '../../img/instagram.svg'
 import linkedin from '../../img/linkedin.svg'
+// resume
+import resume from '../../files/charan_gautam_resume.pdf';
 // EmailJS
 import emailjs from '@emailjs/browser';
 
@@ -62,6 +64,7 @@ const Contact = () => {
                                 <img src={address} alt="" className="c-icon" />
                                 <span className="c-detail">Calgary, Alberta</span>
                             </div>
+                            <a href={resume} className="resume-button" download style={{ backgroundColor: darkMode && "#fff", color: darkMode && "#555" }}>Download my CV</a>
                         </div>
                     </div>
                     <div className="c-right">
@@ -84,7 +87,7 @@ const Contact = () => {
                 <div className="social-media">
                     <a href="https://github.com/charangautam" target="_blank" rel="noreferrer"><img src={github} alt="Github link" className="social-link" style={{ backgroundColor: darkMode && "gray" }} /></a>
                     <a href="https://www.instagram.com/charangautam/" target="_blank" rel="noreferrer"><img src={instagram} alt="Instagram link" className="social-link" style={{ backgroundColor: darkMode && "gray" }} /></a>
-                    <a href="https://www.linkedin.com/in/charan-gautam-bb3683212/" target="_blank" rel="noreferrer"><img src={linkedin} alt="LinkedIn link" className="social-link" style={{ backgroundColor: darkMode && "gray" }} /></a>
+                    <a href="https://www.linkedin.com/in/charangautam/" target="_blank" rel="noreferrer"><img src={linkedin} alt="LinkedIn link" className="social-link" style={{ backgroundColor: darkMode && "gray" }} /></a>
                 </div>
             </div>
         </div>

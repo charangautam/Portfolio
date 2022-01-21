@@ -1,4 +1,6 @@
+// css file
 import './intro.css';
+// personal img
 import me from '../../img/profile.png'
 
 const Intro = () => {
@@ -24,7 +26,7 @@ const Intro = () => {
             </div>
             <div className="i-right">
                 <div className="i-bg"></div>
-                <img src={me} alt="" className="i-img" />
+                <img src={me} alt="Representation of myself and how I look" className="i-img" />
             </div>
         </div>
     )

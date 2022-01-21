@@ -46,13 +46,13 @@
 
 @media screen and (max-width: 1200px) {
     .product-list {
-        margin-top: 100px;
+        margin-top: 150px;
     }
 }
 
-@media screen and (max-width: 860px) {
+@media screen and (max-width: 866px) {
     .product-list {
-        margin-top: 200px;
+        margin-top: 170px;
     }
 
     .pl-texts {
@@ -70,7 +70,7 @@
 
 @media screen and (max-width: 650px) {
     .product-list {
-        margin-top: 270px;
+        margin-top: 240px;
     }
 
     .pl-texts {
@@ -80,7 +80,7 @@
 
 @media screen and (max-width: 590px) {
     .product-list {
-        margin-top: 390px;
+        margin-top: 340px;
     }
 
     .pl-texts {
@@ -92,7 +92,7 @@
     }
 
     .pl-desc {
-        font-size: 20px;
+        font-size: 16px;
     }
 }
 
@@ -100,7 +100,7 @@
     .product-list {
         padding: 10px;
         max-width: 100vh;
-        margin-top: 300px;
+        margin-top: 200px;
     }
 
     .pl-texts {

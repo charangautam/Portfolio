@@ -1,5 +1,7 @@
+// darkMode context
 import { useContext } from 'react';
 import { ThemeContext } from '../../context';
+// css file
 import './product.css';
 
 const Product = ({ name, tech, img, link }) => {
@@ -17,7 +19,7 @@ const Product = ({ name, tech, img, link }) => {
                 <div className="p-circle" style={{ backgroundColor: darkMode && "#fff" }}></div>
             </div>
             <a href={link} target="_blank" rel="noreferrer">
-                <img src={img} alt="" className="p-img" />
+                <img src={img} alt="Representation of each project" className="p-img" />
             </a>
             <div></div>
         </div>

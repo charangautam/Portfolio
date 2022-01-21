@@ -1,6 +1,8 @@
+// css file
 import './productList.css';
-// embedded component/data
+// embedded component
 import Product from '../product/Product';
+// products data
 import { products } from '../../data';
 
 const ProductList = () => {
@@ -9,7 +11,7 @@ const ProductList = () => {
             <div className="pl-texts">
                 <h1 className="pl-title">Personal projects</h1>
                 <p className="pl-desc">
-                    Here are some projects I have built in the past. Click on each to explore further!
+                    Here are some projects I have built in the past. Click on any image to go to the live site!
                 </p>
             </div>
             <div className="pl-list">
@@ -17,7 +19,7 @@ const ProductList = () => {
                     <Product img={product.img} link={product.link} name={product.name} tech={product.tech} key={product.id} />
                 ))}
             </div>
-            <p className='github-link'>Check out my <a href="https://github.com/charangautam">GitHub</a> for more details on each project!</p>
+            <p className='github-link'>Check out my <a href="https://github.com/charangautam" target="_blank" rel="noreferrer">GitHub</a> for more details on each project!</p>
         </div>
     )
 }

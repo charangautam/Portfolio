@@ -31,6 +31,12 @@
 
 /* responsive */ 
 
+@media screen and (max-width: 1200px) {
+    .product {
+        height: 35vh;
+    }
+}
+
 @media screen and (max-width: 940px) {
     .product {
         width: 40%;

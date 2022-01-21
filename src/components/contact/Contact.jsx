@@ -1,7 +1,8 @@
+// darkMode context
 import { useState, useRef, useContext } from 'react';
 import { ThemeContext } from '../../context';
+// css file
 import './contact.css';
-
 // contact icons
 import phone from '../../img/phone.png';
 import email from '../../img/email.png';
@@ -20,6 +21,7 @@ const Contact = () => {
     const darkMode = theme.state.darkMode
     const [done, setDone] = useState(false)
 
+    // refs for form and each input
     const formRef = useRef()
     const Name = useRef()
     const Subject = useRef()
@@ -28,7 +30,7 @@ const Contact = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault()
-
+        // emailjs
         emailjs.sendForm('service_lbkq8fl', 'template_dz4eovu', formRef.current, 'user_yOEt7qCR6Za7itizukFLb')
             .then((result) => {
                 console.log(result.text)
@@ -52,16 +54,16 @@ const Contact = () => {
                         <h1 className="c-title">Let's discuss your needs!</h1>
                         <div className="c-info">
                             <div className="c-info-item">
-                                <img src={phone} alt="" className="c-icon" />
+                                <img src={phone} alt="Phone icon" className="c-icon" />
                                 <span className="c-detail">403-483-6798</span>
                             </div>
                             <div className="c-info-item">
-                                <img src={email} alt="" className="c-icon" />
+                                <img src={email} alt="Email icon" className="c-icon" />
                                 <span className="c-detail">charan.gtm24@gmail.com</span>
 
                             </div>
                             <div className="c-info-item">
-                                <img src={address} alt="" className="c-icon" />
+                                <img src={address} alt="Address icon" className="c-icon" />
                                 <span className="c-detail">Calgary, Alberta</span>
                             </div>
                             <a href={resume} className="resume-button" download style={{ backgroundColor: darkMode && "#fff", color: darkMode && "#555" }}>Download my CV</a>

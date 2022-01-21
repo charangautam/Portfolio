@@ -31,10 +31,39 @@
 
 /* responsive */ 
 
+@media screen and (max-width: 940px) {
+    .product {
+        width: 40%;
+        height: 50vh;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .product {
+        width: 40%;
+        height: 35vh;
+    }
+
+    .product-details {
+        font-size: smaller;
+    }
+} 
+
+@media screen and (max-width: 600px) {
+    .product {
+        width: 42%;
+        height: 26vh;
+    }
+
+    .product-details {
+        display: none;
+    }
+}
+
 @media screen and (max-width: 480px) {
     .product {
         width: 40%;
-        height: 20vh;
+        height: 26vh;
     }
 
     .product-details {

@@ -58,8 +58,6 @@
     opacity: 0.79;
 }
 
-
-
 /* right side */
 
 .c-right {
@@ -142,18 +140,27 @@ button:hover {
    border-radius: 50%;
 }
 
-@media screen and (max-width: 480px) {
+/* responsive */ 
+
+@media screen and (max-width: 1100px) {
+    .c-title {
+        font-size: 45px;
+    }
+}
+
+@media screen and (max-width: 860px) {
     .c-wrapper {
         flex-direction: column;
-        padding: 0 50px;
+        padding: 0 70px;
     }
 
     .c-left {
-        margin-left: 0;
+        width: 100%;
+        margin-bottom: 30px;
     }
 
     .c-title {
-        font-size: 30px;
+        font-size: 35px;
     }
 
     .c-info-item {
@@ -171,7 +178,69 @@ button:hover {
     }
 
     .c-detail {
+        font-size: 15px;
+    }
+
+    .resume-button {
+        font-size: 17px;
+    }
+
+    form {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    input {
+        width: 35%;
+        height: 40px;
+        margin: 10px;
+        margin-left: 0;
+    }
+
+    button {
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .c-wrapper {
+        flex-direction: column;
+        padding: 0 50px;
+    }
+
+    .c-left {
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+
+    .c-title {
+        font-size: 30px;
+    }
+
+    .c-info-item {
+        margin: 20px 0;
+        width: 100%;
+    }
+
+    .c-info-item:last-child {
+        margin-bottom: 10px;
+    }
+
+    .c-desc {
+        display: none;
+    }
+
+    .c-icon {
+        width: 20px;
+        height: 20px;
+    }
+
+    .c-detail {
         font-size: smaller;
+    }
+
+    .resume-button {
+        font-size: 14px;
     }
 
     form {

@@ -1,7 +1,8 @@
 import avengersFlix from './img/avengersFlix.png';
 import avengersFlixAngular from './img/avengersFlixAngular.png';
-import meet from './img/meet.png'
-import chatter from './img/chatter.png'
+import meet from './img/meet.png';
+import chatter from './img/chatter.png';
+import HR from './img/HR.png';
 
 export const products = [
     {
@@ -36,8 +37,8 @@ export const products = [
         id: 5,
         name: 'HR Input',
         tech: 'Built using MERN stack',
-        img: "https://via.placeholder.com/150",
-        link: "http://lama.dev",
+        img: HR,
+        link: "https://sportal-app.herokuapp.com/",
     },
     {
         id: 6,

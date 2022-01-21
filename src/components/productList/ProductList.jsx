@@ -7,7 +7,7 @@ const ProductList = () => {
     return (
         <div className="product-list">
             <div className="pl-texts">
-                <h1 className="pl-title">Personal projects & work</h1>
+                <h1 className="pl-title">Personal projects</h1>
                 <p className="pl-desc">
                     Here are some projects I have built in the past. Click on each to explore further!
                 </p>

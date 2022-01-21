@@ -21,7 +21,7 @@ const About = () => {
                     I pursued Kinesiology in my undergrad because of an innate drive to empower others to experience the physical, social and mental wellness benefits associated with healthy living.
                 </p>
                 <p className="a-desc">
-                    When I started programming, a few years ago, I was very invested in exploring how technology enables and advances healthcare. My purpose is to utilize the knowledge acquired through my Kinesiology degree and apply it to write software that works to make a difference and improve lives of users as tech continues to drive the world.
+                    When I started programming, a few years ago, I was very invested in exploring how technology enables and advances healthcare. My purpose is to utilize the knowledge acquired through my Kinesiology degree and apply it to write software that works to make a difference and improve lives of users as tech continues to drive the world forward.
                 </p>
                 <div className="a-achievement">
                     <img src={achievement} alt="" className="a-acheivement-img" />

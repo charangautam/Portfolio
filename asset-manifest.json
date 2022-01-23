@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.97460b47.css",
+    "main.css": "/Portfolio/static/css/main.7e27acae.css",
     "main.js": "/Portfolio/static/js/main.a2498fcf.js",
     "static/media/avengersFlix.png": "/Portfolio/static/media/avengersFlix.eab36846a060e976a234.png",
     "static/media/avengersFlixAngular.png": "/Portfolio/static/media/avengersFlixAngular.41998d570999d2fc5903.png",
@@ -21,11 +21,11 @@
     "static/media/github.svg": "/Portfolio/static/media/github.e7ab8675a2cbadea548cafe724065b9e.svg",
     "static/media/instagram.svg": "/Portfolio/static/media/instagram.7d97391465d60f2909c444d267ea80ff.svg",
     "static/media/linkedin.svg": "/Portfolio/static/media/linkedin.9e52cf326e0bbf3cd9a3378906c0d35c.svg",
-    "main.97460b47.css.map": "/Portfolio/static/css/main.97460b47.css.map",
+    "main.7e27acae.css.map": "/Portfolio/static/css/main.7e27acae.css.map",
     "main.a2498fcf.js.map": "/Portfolio/static/js/main.a2498fcf.js.map"
   },
   "entrypoints": [
-    "static/css/main.97460b47.css",
+    "static/css/main.7e27acae.css",
     "static/js/main.a2498fcf.js"
   ]
 }

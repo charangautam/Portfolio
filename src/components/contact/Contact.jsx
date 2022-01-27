@@ -12,7 +12,7 @@ import github from '../../img/github.svg';
 import instagram from '../../img/instagram.svg'
 import linkedin from '../../img/linkedin.svg'
 // resume
-import resume from '../../files/charan_gautam_resume.pdf';
+import resume from '../../files/Charan-Gautam-Resume.pdf';
 // EmailJS
 import emailjs from '@emailjs/browser';
 

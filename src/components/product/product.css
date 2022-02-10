@@ -8,6 +8,10 @@
     background-color: #519259;
 }
 
+.study {
+    text-decoration: none;
+}
+
 .p-broswer {
     height: 20px;
     background-color: rgb(243, 242, 242);
@@ -53,6 +57,10 @@
     .product-details {
         font-size: smaller;
     }
+
+    .study {
+        font-size: smaller;
+    }
 } 
 
 @media screen and (max-width: 600px) {
@@ -64,15 +72,15 @@
     .product-details {
         display: none;
     }
+
+    .study {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 480px) {
     .product {
         width: 40%;
         height: 26vh;
-    }
-
-    .product-details {
-        display: none;
     }
 }

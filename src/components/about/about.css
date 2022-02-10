@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     height: 100vh;
-    margin-top: 90px;
+    margin-top: 140px;
 }
 
 /* left side */
@@ -143,6 +143,10 @@
 @media screen and (max-width: 600px) {
     .a-achievement {
         justify-content: space-between;
+    }
+
+    .a-desc.two {
+        display: none;
     }
 }
 

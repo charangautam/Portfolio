@@ -71,7 +71,7 @@ const Contact = () => {
                     </div>
                     <div className="c-right">
                         <p className="c-desc">
-                            <b>Interested in my skills? </b>Get in touch with me. I am looking for a full time position with a company working to make to difference to the communities they serve.
+                            <b>Interested in my skills? </b>Get in touch with me. I am looking for a full-time position in a company working to make a difference to the communities it serves.
                         </p>
                         <form ref={formRef} onSubmit={handleSubmit}>
                             <input type="text" placeholder="Name" name="user_name" ref={Name} style={{ backgroundColor: darkMode && "#333", color: darkMode && "#fff" }} />

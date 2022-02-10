@@ -11,7 +11,7 @@ const ProductList = () => {
             <div className="pl-texts">
                 <h1 className="pl-title">Personal projects</h1>
                 <p className="pl-desc">
-                    Here are some projects I have built in the past. Click on any image to go to the live site!
+                    Here are some projects I have built in the past. Click on an image to go to the live site!
                 </p>
             </div>
             <div className="pl-list">

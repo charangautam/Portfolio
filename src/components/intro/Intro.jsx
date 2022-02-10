@@ -20,7 +20,7 @@ const Intro = () => {
                         </div>
                     </div>
                     <p className='i-desc'>
-                        I am a passionate web developer living in Calgary, Alberta. At the moment, I am focusing on building and honing my personal brand in order to break into the tech industry. I love tech as it continues to influence our lives around us as well as build on top of the greatest innovation in the last century, the internet!
+                        I am a passionate web developer living in Calgary, Alberta. At the moment, I am focused on building and honing my personal brand in order to break into the tech industry. I love technology as it continues to influence our lives around us as well as build on top of the greatest innovation of the last century, the internet!
                     </p>
                 </div>
             </div>

@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.7e27acae.css",
-    "main.js": "/Portfolio/static/js/main.89a45304.js",
+    "main.css": "/Portfolio/static/css/main.93e0331d.css",
+    "main.js": "/Portfolio/static/js/main.a0a1f7db.js",
     "static/media/avengersFlix.png": "/Portfolio/static/media/avengersFlix.eab36846a060e976a234.png",
     "static/media/avengersFlixAngular.png": "/Portfolio/static/media/avengersFlixAngular.41998d570999d2fc5903.png",
+    "static/media/AvengersFlix-Case-Study.pdf": "/Portfolio/static/media/AvengersFlix-Case-Study.144c59afeecc2d7a7510.pdf",
     "static/media/about.jpg": "/Portfolio/static/media/about.60e96bb60c6f77a8bf4c.jpg",
     "static/media/chatter.png": "/Portfolio/static/media/chatter.2e13ac4a76c090f70735.png",
     "static/media/soon.png": "/Portfolio/static/media/soon.62e3057f01d0add6c45e.png",
     "static/media/HR.png": "/Portfolio/static/media/HR.6bf8dee0edaa859e460c.png",
     "static/media/meet.png": "/Portfolio/static/media/meet.d11cdb30c3678ede1719.png",
     "static/media/profile.png": "/Portfolio/static/media/profile.a49d18c29cac507ff123.png",
-    "static/media/Charan-Gautam-Resume.pdf": "/Portfolio/static/media/Charan-Gautam-Resume.20d0da9d070da084138d.pdf",
+    "static/media/Charan-Gautam-Resume.pdf": "/Portfolio/static/media/Charan-Gautam-Resume.78d80490f3c8087c07c3.pdf",
     "static/media/address.png": "/Portfolio/static/media/address.a01cb8cc428702f30bec.png",
     "static/media/email.png": "/Portfolio/static/media/email.a49e015815e3ac6d2bd3.png",
     "static/media/achievement.png": "/Portfolio/static/media/achievement.bd968feab24a35d893d3.png",
@@ -21,11 +22,11 @@
     "static/media/github.svg": "/Portfolio/static/media/github.e7ab8675a2cbadea548cafe724065b9e.svg",
     "static/media/instagram.svg": "/Portfolio/static/media/instagram.7d97391465d60f2909c444d267ea80ff.svg",
     "static/media/linkedin.svg": "/Portfolio/static/media/linkedin.9e52cf326e0bbf3cd9a3378906c0d35c.svg",
-    "main.7e27acae.css.map": "/Portfolio/static/css/main.7e27acae.css.map",
-    "main.89a45304.js.map": "/Portfolio/static/js/main.89a45304.js.map"
+    "main.93e0331d.css.map": "/Portfolio/static/css/main.93e0331d.css.map",
+    "main.a0a1f7db.js.map": "/Portfolio/static/js/main.a0a1f7db.js.map"
   },
   "entrypoints": [
-    "static/css/main.7e27acae.css",
-    "static/js/main.89a45304.js"
+    "static/css/main.93e0331d.css",
+    "static/js/main.a0a1f7db.js"
   ]
 }

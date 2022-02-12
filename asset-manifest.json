@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.93e0331d.css",
-    "main.js": "/Portfolio/static/js/main.a0a1f7db.js",
+    "main.js": "/Portfolio/static/js/main.6a66697e.js",
     "static/media/avengersFlix.png": "/Portfolio/static/media/avengersFlix.eab36846a060e976a234.png",
     "static/media/avengersFlixAngular.png": "/Portfolio/static/media/avengersFlixAngular.41998d570999d2fc5903.png",
     "static/media/AvengersFlix-Case-Study.pdf": "/Portfolio/static/media/AvengersFlix-Case-Study.144c59afeecc2d7a7510.pdf",
@@ -11,7 +11,7 @@
     "static/media/HR.png": "/Portfolio/static/media/HR.6bf8dee0edaa859e460c.png",
     "static/media/meet.png": "/Portfolio/static/media/meet.d11cdb30c3678ede1719.png",
     "static/media/profile.png": "/Portfolio/static/media/profile.a49d18c29cac507ff123.png",
-    "static/media/Charan-Gautam-Resume.pdf": "/Portfolio/static/media/Charan-Gautam-Resume.78d80490f3c8087c07c3.pdf",
+    "static/media/Charan-Gautam-Resume.pdf": "/Portfolio/static/media/Charan-Gautam-Resume.47b71aa719c8b2f039a1.pdf",
     "static/media/address.png": "/Portfolio/static/media/address.a01cb8cc428702f30bec.png",
     "static/media/email.png": "/Portfolio/static/media/email.a49e015815e3ac6d2bd3.png",
     "static/media/achievement.png": "/Portfolio/static/media/achievement.bd968feab24a35d893d3.png",
@@ -23,10 +23,10 @@
     "static/media/instagram.svg": "/Portfolio/static/media/instagram.7d97391465d60f2909c444d267ea80ff.svg",
     "static/media/linkedin.svg": "/Portfolio/static/media/linkedin.9e52cf326e0bbf3cd9a3378906c0d35c.svg",
     "main.93e0331d.css.map": "/Portfolio/static/css/main.93e0331d.css.map",
-    "main.a0a1f7db.js.map": "/Portfolio/static/js/main.a0a1f7db.js.map"
+    "main.6a66697e.js.map": "/Portfolio/static/js/main.6a66697e.js.map"
   },
   "entrypoints": [
     "static/css/main.93e0331d.css",
-    "static/js/main.a0a1f7db.js"
+    "static/js/main.6a66697e.js"
   ]
 }

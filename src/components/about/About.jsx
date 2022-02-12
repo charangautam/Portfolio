@@ -32,20 +32,20 @@ const About = () => {
                 <div className="a-achievement">
                     <img src={achievement} alt="Past achievements" className="a-acheivement-img" />
                     <div className="a-achievement-texts">
-                        <h4 className="a-achievement-title" style={{ color: darkMode && "#F2E1C1" }}>Bachelor's of Kinesiology</h4>
-                        <p className="a-achievement-date">2017-2021</p>
+                        <h4 className="a-achievement-title" style={{ color: darkMode && "#F2E1C1" }}>CareerFoundry Web Development Bootcamp</h4>
+                        <p className="a-achievement-date">2021-2022</p>
                         <p className="a-achievement-desc">
-                            3.74 GPA across degree. Acquired extensive knowledge related to health, wellness, nutrition, exercise, and performance psychology.
+                            Acquired knowledge in a range of technologies spanning from MongoDB, NodeJS and ExpressJS on the backend to React and Angular on the frontend to build functional websites. Also learnt and implemented React Native and testing/debugging tools.
                         </p>
                     </div>
                 </div>
                 <div className="a-achievement">
                     <img src={achievement} alt="Past achievements" className="a-acheivement-img" />
                     <div className="a-achievement-texts">
-                        <h4 className="a-achievement-title" style={{ color: darkMode && "#F2E1C1" }}>CareerFoundry Web Development Bootcamp</h4>
-                        <p className="a-achievement-date">2021-2022</p>
+                        <h4 className="a-achievement-title" style={{ color: darkMode && "#F2E1C1" }}>Bachelor of Kinesiology</h4>
+                        <p className="a-achievement-date">2017-2021</p>
                         <p className="a-achievement-desc">
-                            Acquired knowledge in a range of technologies spanning from MongoDB, NodeJS and ExpressJS on the backend to React and Angular on the frontend to build functional websites. Also learnt and implemented React Native and testing/debugging tools.
+                            3.74 GPA across degree. Acquired extensive knowledge related to health, wellness, nutrition, exercise, and performance psychology.
                         </p>
                     </div>
                 </div>
